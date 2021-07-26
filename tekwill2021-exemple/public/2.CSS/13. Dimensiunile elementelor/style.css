@@ -1,10 +1,10 @@
 body{
-    background-color: cadetblue;
+    background-color: rgb(238, 223, 211);
     font-size: 0;
 }
 
 .element{
-    border: 1px solid red;
+    border: 1px solid rgb(68, 71, 247);
     height: 70px;
     width: 33%;
     display: inline-block;
@@ -12,11 +12,11 @@ body{
 }
 
 #special{
-    width: 600px;
+    width: 100px;
     height: 130px;
-    margin: 10px;
-    background-color: crimson;
-    border: 5px solid yellow;
-    border-bottom-width: 10px;
+    margin: 20px;
+    background-color: rgb(233, 164, 178);
+    border: 5px solid rgb(32, 226, 42);
+    border-bottom-width: 15px;
     padding-left: 20px;
 }

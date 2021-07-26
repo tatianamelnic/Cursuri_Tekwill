@@ -11,10 +11,10 @@ body{
 header{
     font-size: 33px;
     font-weight: bold;
-    background-color: rgb(236, 240, 9);
+    background-color: rgb(10, 143, 125);
     text-align: center;
     padding: 1em;
-    color: rgb(4, 65, 34);
+    color: rgb(218, 226, 231);
 }
 
 header img{
@@ -32,7 +32,7 @@ section{
 }
 
 ul{
-    background: #c3eb67;
+    background: #12ccda;
     list-style: none;
     opacity: 0.9;
     padding: 1em 0;
@@ -72,7 +72,7 @@ ul li ul li:hover{
 
 ul li:hover{
     opacity: 1;
-    background-color: #eee;
+    background-color: rgb(247, 197, 197);
 }
 
 ul li ul li a{
@@ -83,9 +83,9 @@ ul li ul li a{
 
 
 footer{
-    background-color: rgb(6, 197, 32);
+    background-color: rgb(10, 143, 125);
     color: white;
     text-align: center;
-    height: 10em;
+    height: 5em;
     padding-top: 2em;
 }
