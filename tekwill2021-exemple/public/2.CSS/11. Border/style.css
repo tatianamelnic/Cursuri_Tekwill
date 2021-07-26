@@ -1,0 +1,86 @@
+body{
+font-size: 50px;    
+}
+.square{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 5px;
+    background-color: rgb(236, 236, 22);
+    border-width: 10px;
+}
+
+.borderSolid{
+    border-style: solid;
+    background-color: aqua;
+}
+
+.borderDotted{
+    border-left-style: groove;
+    border-right-style: dotted;
+    border-top-style: solid;
+    border-bottom-style: double;
+    background-color: brown;
+    margin: 10px;
+}
+
+.borderDashed{
+    border-style: dashed;
+    background-color: chartreuse;
+    margin: 15px;
+}
+
+.borderDouble{
+    border-style: double;
+    background-color: pink;
+    border-color: purple;
+    
+}
+
+.borderInset{
+    border-style: inset;
+    border-top-color: rgb(238, 108, 15);
+    border-left-color: rgb(223, 35, 151);
+    border-right-color: rgb(17, 221, 44);
+    border-bottom-color: rgb(69, 33, 231);
+}
+
+.borderOutset{
+    border-style: outset;
+    background-color: slategray;
+}
+
+.borderGroove{
+    border-style: groove;
+    background-color: teal;
+}
+
+.borderRidge{
+    border-style: ridge;
+    margin:30px;
+    background-color: rgb(238, 15, 164);
+}
+
+
+.borderTopStyle{
+    border-top-style: solid;
+    background-color: rgb(19, 49, 61);
+    border-color: deeppink;
+}
+
+.borderPairWidth{
+    border-width: 10px 20px;
+    border-color: red;
+    border-style: solid;
+    background-color: darkgreen;
+}
+
+
+.borderSides{
+    border-width: 5px 10px 15px 20px;
+    border-right-color: red;
+    border-left-color: darkorchid;
+    border-top-color: darkred;
+    border-bottom-color: darkslategrey;
+    border-style: solid;
+}
