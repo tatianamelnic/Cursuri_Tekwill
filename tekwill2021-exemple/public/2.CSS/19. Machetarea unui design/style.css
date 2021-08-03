@@ -8,17 +8,21 @@ body{
 #bodyBg{
     background-color: #F9BDBD;
     width: 370px;
-    height: 800px;
+    height: 700px;
     position: absolute;
     right: 0;
     z-index: -1;
     border-bottom-left-radius: 120px;
 }
 
-header{
+header#pageHeader{
     display: grid;
     grid-template-columns: 1fr 4fr;
     margin-top: 2em;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: white;
 }
 
 header #logo{
@@ -84,10 +88,65 @@ header nav #navigation li.button{
     
 }
 
-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+section#home{
+    min-height: 700px;
 }
+
+section#about, section#how{
+    min-height: 500px;
+}
+
+section#about header, section#how header{
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr;
+    height: 98px;
+}
+
+.horizontal-divider{
+    background-color: gray;
+    height: 1px;
+    margin-top: 1em;
+}
+
+section#about header h2, section#how header h2{
+    margin: 0;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    text-align: right;
+    color: rgba(34, 34, 34, 0.1);
+    text-transform: uppercase;
+    margin-top: -0.5em;
+}
+
+section#about div.content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+
+section#how .content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+}
+
+section#how .content img{
+    width: 100%;
+}
+
+
+.roundedRectangle{
+    background-color: #F7DEA6;
+    width: 278px;
+    height: 388px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+}
+
 
 body > section > article > h1{
     font-size: 36px;
